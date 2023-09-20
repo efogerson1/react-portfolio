@@ -1,19 +1,16 @@
-import React from 'react';
-import Content from "./components/Content"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { Worker } from '@react-pdf-viewer/core';
-import packageJson from '../package.json';
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
-const pdfjsVersion = packageJson.dependencies['pdfjs-dist'].slice(1);
+import "./index.css";
+const App = () => {
+  return (
+    <div>
+      <Header />
 
-function App() {
-    console.log(pdfjsVersion);
-    return (
-        <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${pdfjsVersion}/build/pdf.worker.min.js`}>
-            <Content />
-        </Worker>
-    );
-  }
-  
-  export default App;
+      <Footer ></Footer>
+    </div>
+  );
+};
+
+export default App;

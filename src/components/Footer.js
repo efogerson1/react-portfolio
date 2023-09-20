@@ -1,28 +1,25 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import React from "react";
 
-import { SocialIcon } from 'react-social-icons';
+
+/* Create images in future */
+import githublogo from "../assets/icons/githublogo.png";
+import gmaillogo from "../assets/icons/gmaillogo.png";
+import linkedinlogo from "../assets/icons/linkedinlogo.png";
 
 function Footer() {
-    return (
-        <footer>
-            <Row>
-                <Col md="8" id="signature">
-                    <h3>Website created by Christian Smith</h3>
-                </Col>
-                <Col md="4">
-                    <ul>
-                        <li>
-                            <SocialIcon target={'_blank'} url="https://github.com/efogerson1" fgColor='#FAF0CA' bgColor='#EE964B' style={{ height: 25, width: 25 }}/>
-                        </li>
-                        <li>
-                            <SocialIcon target={'_blank'} url="https://www.linkedin.com/in/eric-fogerson-121a061a5/" fgColor='#FAF0CA' bgColor='#EE964B' style={{ height: 25, width: 25 }}/>
-                        </li>
-                    </ul>
-                </Col>
-            </Row>
-        </footer>
-    );
+  return (
+    <footer id="contact">
+      <a href="https://www.linkedin.com/in/eric-fogerson-121a061a5/" rel="noreferrer" target="_blank">
+        <img src={linkedinlogo} alt="linked in logo" />
+      </a>
+      <a href="https://github.com/efogerson1" rel="noreferrer" target="_blank">
+        <img src={githublogo} alt="github logo" />
+      </a>
+      <a href="mailto:efogerson2@gmail.com">
+        <img src={gmaillogo} alt="gmail logo" />
+      </a>
+    </footer>
+  );
 }
 
 export default Footer;
