@@ -41,9 +41,9 @@ function ContactForm() {
     <section>
       <h1 data-testid="h1tag" class="pro-title">Get in touch!</h1>
       <address>
-        <a href="mailto:kobybanks@gmail.com">anthonyccardozo@gmail.com</a>
+        <a href="mailto:efogerson2@gmail.com">efogerson2@gmail.com</a>
         <br />
-        <a href="tel:+13432026543">(613) 612-9660</a>
+        <a href="tel:+13432026543">(123) 456-7891</a>
       </address>
 
       <form id="contact-form" onSubmit={handleSubmit}>
