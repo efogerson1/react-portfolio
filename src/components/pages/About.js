@@ -6,7 +6,7 @@ const About = () => (
     <h1 class="pro-title">About Me</h1>
     <img className="eric" src={ericprofilepic} alt="photo of Eric hiking" />
     <p className="para">
-  Insert stuff here
+  I live in the Pacific Northwest, and am an Fullstack Programmer.
     </p>
     <br />
     <br />
