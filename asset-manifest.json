@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/www.ericfogerson.dev/static/css/main.f9f646f1.css",
+    "main.js": "/www.ericfogerson.dev/static/js/main.fd4e16b6.js",
+    "static/media/banner.jpg": "/www.ericfogerson.dev/static/media/banner.ff2590445f10411d5722.jpg",
+    "static/media/ericprofilepic.jpeg": "/www.ericfogerson.dev/static/media/ericprofilepic.a62e3c1064786ba14ed7.jpeg",
+    "static/media/2.png": "/www.ericfogerson.dev/static/media/2.ae72fe80ab918b94463b.png",
+    "static/media/gmaillogo.png": "/www.ericfogerson.dev/static/media/gmaillogo.58e5ec5916805ed5a99e.png",
+    "static/media/1.png": "/www.ericfogerson.dev/static/media/1.651aca752976a0625c94.png",
+    "static/media/linkedinlogo.png": "/www.ericfogerson.dev/static/media/linkedinlogo.8ff92eba23f1f977b527.png",
+    "static/media/5.png": "/www.ericfogerson.dev/static/media/5.68b382996231b864ce57.png",
+    "static/media/4.png": "/www.ericfogerson.dev/static/media/4.44e4d87cac4f3aa0f682.png",
+    "static/media/3.png": "/www.ericfogerson.dev/static/media/3.dbbc3813788f970feeb7.png",
+    "static/media/0.png": "/www.ericfogerson.dev/static/media/0.43e9ba6c3406beb5ccb1.png",
+    "index.html": "/www.ericfogerson.dev/index.html",
+    "main.f9f646f1.css.map": "/www.ericfogerson.dev/static/css/main.f9f646f1.css.map",
+    "main.fd4e16b6.js.map": "/www.ericfogerson.dev/static/js/main.fd4e16b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9f646f1.css",
+    "static/js/main.fd4e16b6.js"
+  ]
+}
