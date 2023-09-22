@@ -28,7 +28,7 @@ function Header() {
     <div>
       <div>
         <header className="header">
-          <h1 className="headername"> Anthony Cardozo</h1>
+          <h1 className="headername"> Eric Fogerson</h1>
 
           <Nav
             currentPage={currentPage}
