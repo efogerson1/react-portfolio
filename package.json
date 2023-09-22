@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
-    "homepage": "www.ericfogerson.dev",
+    "homepage": "http://efogerson1.github.io/react-portfolio",
     "private": true,
     "dependencies": {
         "@react-pdf-viewer/core": "^3.11.0",
