@@ -40,25 +40,25 @@ function Portfolio() {
     <div>
       <h1 className="pro-title">Projects</h1>
       <div className="flex-row">
-        {projects.map((image, i) => (
-          <div className="test mx-2 " key={image.name}>
+        {projects.map((project, i) => (
+          <div className="test mx-2 " key={project.name}>
             <img
-              src={require(`../../assets/images/projects/${i}.png`).default}
-              alt={image.name}
+              src={require(`../../assets/images/projects/${i}.png`)}
+              alt={project.name}
               className="project img-thumbnail "
-              key={image.name}
+              key={project.name}
             />
             <div className="sub">
-              <a target="_blank" href={image.link}>
+              <a target="_blank" href={project.link}>
                 {" "}
-                <span className="name  py-1 px-1">{image.name}</span>
+                <span className="name  py-1 px-1">{project.name}</span>
               </a>
-              <a target="_blank" href={image.gitLink}>
+              <a target="_blank" href={project.gitLink}>
                 <img
                   src={githublogo}
                   alt="link to git hub"
                   className="project-link"
-                  key={image.gitLink}
+                  key={project.gitLink}
                 />
               </a>
             </div>
