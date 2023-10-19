@@ -30,9 +30,9 @@ function Portfolio() {
       gitLink: "https://github.com/efogerson1/workday-schedule",
     },
     {
-      name: "Password Generator",
+      name: "myFitness Application",
       link: "https://efogerson1.github.io/random-password-generator/",
-      gitLink: "https://github.com/acardozoweb/password-generator",
+      gitLink: "https://github.com/MerelJac/fitness-application",
     },
   ]);
 
