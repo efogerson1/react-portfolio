@@ -31,7 +31,7 @@ function Portfolio() {
     },
     {
       name: "myFitness Application",
-      link: "https://efogerson1.github.io/random-password-generator/",
+      link: "http://54.191.22.251:8080/",
       gitLink: "https://github.com/MerelJac/fitness-application",
     },
   ]);
