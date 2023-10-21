@@ -30,7 +30,7 @@ function Portfolio() {
       gitLink: "https://github.com/efogerson1/workday-schedule",
     },
     {
-      name: "myFitness Application",
+      name: "myFitness Application 1.0",
       link: "http://54.191.22.251:8080/",
       gitLink: "https://github.com/MerelJac/fitness-application",
     },
